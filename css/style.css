@@ -34,4 +34,13 @@
     width: 430px;
     background-color: black;
     margin-top: 25px;
+    color: rgb(9, 187, 113);
+ }
+ .column{
+    flex-direction: row-reverse;
+ }
+ h3{
+    padding-right: 30px;
+    font-family: seven segment;
+    font-size: 70px;
  }
