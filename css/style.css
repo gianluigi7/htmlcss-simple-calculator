@@ -20,6 +20,7 @@
     height: 600px;
     width: 430px;
     background-color: rgba(128, 128, 128, 0.233);
+    flood-opacity: initial;
     border-radius: 10px;
  }
 
@@ -44,3 +45,53 @@
     font-family: seven segment;
     font-size: 70px;
  }
+ .little-square{
+    height:410px;
+    background-color: red;
+    width: 320px;
+ }
+ .little-rettangle{
+    height: 410px;
+    width: 120px;
+    
+ }.tiny-square{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    margin-top: 30px;
+ }
+  .grey{
+    background-color: grey;
+  }
+  .flex-start{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .orange{
+    background-color: orange;
+  }
+  .notsotiny-square{
+    height: 50px;
+    width: 110px;
+  }
+  .c-square{
+    height: 55px;
+    width: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid rgb(46, 46, 46);
+  }
+  .blu{
+    background-color: aqua;
+  }
+  .column2{
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+  h5{
+    font-size: 30px;
+    color: white;
+    padding-left: 19px;
+  }
