@@ -19,7 +19,7 @@
  .square {
     height: 600px;
     width: 430px;
-    background-color: rgba(128, 128, 128, 0.233);
+    background-image:linear-gradient(to right, rgba(128, 128, 128, 0.233) ,rgba(128, 128, 128, 0.096));
     flood-opacity: initial;
     border-radius: 10px;
  }
@@ -46,9 +46,12 @@
     font-size: 70px;
  }
  .little-square{
-    height:410px;
-    background-color: red;
-    width: 320px;
+    height: 350px;0px;
+    width: 300px;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-left: 20px;
  }
  .little-rettangle{
     height: 410px;
@@ -69,14 +72,11 @@
   }
   .orange{
     background-color: orange;
-  }
-  .notsotiny-square{
-    height: 50px;
-    width: 110px;
+  
   }
   .c-square{
-    height: 55px;
-    width: 60px;
+  
+    width: 70px;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 4px;
@@ -94,4 +94,17 @@
     font-size: 30px;
     color: white;
     padding-left: 19px;
+  }
+  button{
+    padding: 6px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.445);
+    flex-wrap: wrap;
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+  }
+  .large{
+    width: 170px;
   }
